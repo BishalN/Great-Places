@@ -1,6 +1,5 @@
 import 'dart:io';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 
 class PlaceLocation {
@@ -15,8 +14,8 @@ class PlaceLocation {
 class Place {
   final String id;
   final String title;
-  final PlaceLocation image;
-  final File location;
+  final File image;
+  final PlaceLocation location;
 
   Place(
       {@required this.id,
